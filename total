@@ -1,0 +1,52 @@
+<%@ page import="java.sql.*" %>
+<%@ page import="java.util.*"%>
+<%@ include file="makecon.jsp" %>
+ <% 
+String uid = session.getValue("uid").toString();
+int x = 1;
+ 	
+ResultSet rs=st.executeQuery("select * from setexam");
+ResultSet rs1=st1.executeQuery("select * from marks where usid='" + uid + "' and marks <=35");
+
+if(rs1.next())
+  x = 1;
+else
+  x = 0;
+
+	%>
+
+<html>
+<head>
+<title>Welcome Page</title>
+</head>
+<body bgColor='papayawhip'><center>
+
+<center>
+<font face=verdana color=red><h2> Group Menu Options </h2>
+</font>
+<form>
+
+<br><br><br><br><br>
+<%
+if(rs.next())
+{
+String a = rs.getString(1);
+if(a.equalsIgnoreCase("match"))
+{
+if(x==1)
+{
+%>
+	
+	<a href=start.jsp?a=1> Start Examination </a><br><br><br>
+<%}}
+else
+{
+%>
+	<a href=start1.jsp?a=1> Start Examination </a><br><br><br>
+<%}}%>
+
+<a href=result.jsp> View Result </a>
+
+</center>
+</form>
+</html>
