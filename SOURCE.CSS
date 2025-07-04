@@ -1,0 +1,42 @@
+BODY {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: arial; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: arial
+}
+LI {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: arial
+}
+P {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: arial
+}
+A:link {
+	COLOR: #b3872d
+}
+A:active {
+	COLOR: #b3872d
+}
+A:visited {
+	COLOR: #b3872d
+}
+A:hover {
+	COLOR: #cc9933
+}
+H1 {
+	FONT-SIZE: 8pt; COLOR: #cc9933; FONT-FAMILY: Arial
+}
+H2 {
+	FONT-SIZE: 8pt; COLOR: #cc9933; FONT-FAMILY: arial
+}
+H3 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: arial
+}
+.copyright {
+	FONT-SIZE: 10px
+}
+.disclaimer {
+	FONT-SIZE: 10px
+}
+HR {
+	COLOR: #bb8d2f; HEIGHT: 1px
+}

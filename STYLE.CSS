@@ -1,0 +1,54 @@
+BODY {
+	BACKGROUND: #ffffff
+}
+TABLE.norepeat {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: no-repeat
+}
+A:link {
+	COLOR: blue; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+A:visited {
+	COLOR: purple; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+TR.row1 {
+	BACKGROUND: #013567
+}
+FONT.row1 {
+	COLOR: white; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+TR.row2 {
+	BACKGROUND: #456c90
+}
+FONT.row2 {
+	COLOR: white; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+TR.row3 {
+	BACKGROUND: #b8c7d5
+}
+FONT.row3 {
+	COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+FONT.outside {
+	COLOR: #000000; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+TABLE.outside {
+	BACKGROUND: #ffffff
+}
+FONT.inside {
+	COLOR: #000000; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+FONT.alert {
+	COLOR: red; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+TR.alterRow1 {
+	BACKGROUND: #ffffff
+}
+TR.alterRow2 {
+	BACKGROUND: #cccccc
+}
+TR.rowTotal {
+	BACKGROUND: #55ff55
+}
+TD.border {
+	BACKGROUND: #000000
+}

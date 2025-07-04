@@ -1,0 +1,164 @@
+
+.td
+{
+   font-color:brown;
+}
+
+textarea,input,select {
+	   font-size:12px;
+	   border:1px solid gray;
+	   background:white;
+	   font-weight:bold;
+	   color:lightslategray
+	   }
+
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 100%
+}
+DIV.rounded-box {
+	WIDTH: 146px; POSITION: relative; BACKGROUND-COLOR: skyblue; TEXT-ALIGN: center
+}
+DIV.top-left-corner {
+	OVERFLOW: hidden; WIDTH: 20px; POSITION: absolute; HEIGHT: 18px; BACKGROUND-COLOR: white;
+}
+DIV.bottom-left-corner {
+	OVERFLOW: hidden; WIDTH: 20px; POSITION: absolute; HEIGHT: 18px; BACKGROUND-COLOR: white;
+}
+DIV.top-right-corner {
+	OVERFLOW: hidden; WIDTH: 20px; POSITION: absolute; HEIGHT: 18px; BACKGROUND-COLOR: white;
+}
+DIV.bottom-right-corner {
+	OVERFLOW: hidden; WIDTH: 20px; POSITION: absolute; HEIGHT: 18px; BACKGROUND-COLOR: skyblue;
+}
+DIV.top-left-inside {
+	FONT-SIZE: 150px; COLOR: skyblue; LINE-HEIGHT: 40px; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.bottom-left-inside {
+	FONT-SIZE: 150px; COLOR: skyblue; LINE-HEIGHT: 40px; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.top-right-inside {
+	FONT-SIZE: 150px; COLOR: skyblue; LINE-HEIGHT: 40px; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.bottom-right-inside {
+	FONT-SIZE: 150px; COLOR: skyblue; LINE-HEIGHT: 40px; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.top-left-corner {
+	LEFT: 0px; TOP: 0px
+}
+DIV.bottom-left-corner {
+	LEFT: 0px; BOTTOM: 0px
+}
+DIV.top-right-corner {
+	RIGHT: 0px; TOP: 0px
+}
+DIV.bottom-right-corner {
+	RIGHT: 0px; BOTTOM: 0px
+}
+DIV.top-left-inside {
+	LEFT: -8px
+}
+DIV.bottom-left-inside {
+	LEFT: -8px; TOP: -17px
+}
+DIV.top-right-inside {
+	LEFT: -25px
+}
+DIV.bottom-right-inside {
+	LEFT: -25px; TOP: -17px
+}
+DIV.menu-items {
+	MARGIN-LEFT: 2px; WIDTH: 141px; MARGIN-RIGHT: 2px; POSITION: relative; TOP: 10px; BACKGROUND-COLOR:white
+}
+DIV.curvebar-outer {
+	FILTER: blur(add=false, direction=180, strength=2); OVERFLOW: hidden; WIDTH: 141px; HEIGHT: 10px; BACKGROUND-COLOR: skyblue;
+}
+DIV.curvebar2-outer {
+	FILTER: blur(add=false, direction=180, strength=2); OVERFLOW: hidden; WIDTH: 141px; HEIGHT: 10px; BACKGROUND-COLOR: skyblue;
+}
+DIV.curvebar-inner {
+	FONT-SIZE: 4000px; COLOR: skyblue; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.curvebar2-inner {
+	FONT-SIZE: 4000px; COLOR: white; FONT-FAMILY: arial; POSITION: relative
+}
+DIV.curvebar-outer {
+	BACKGROUND-COLOR: skyblue;
+}
+DIV.curvebar-inner {
+	LEFT: -637px; TOP: -1721px
+}
+DIV.curvebar2-outer {
+	BACKGROUND-COLOR: skyblue;
+}
+DIV.curvebar2-inner {
+	LEFT: -637px; TOP: -2708px
+}
+DIV.left-buttons A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: white; LEFT: 0px; PADDING-BOTTOM: 2px; FONT: 11px Verdana,sans-serif; MARGIN-LEFT: 0px; WIDTH: 124px; COLOR: #0031cf; MARGIN-RIGHT: 0px; PADDING-TOP: 2px; LIST-STYLE-TYPE: square; TOP: 0px; HEIGHT: 10px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+DIV.left-buttons A:hover {
+	BACKGROUND: #eee; COLOR: #000; TEXT-DECORATION: none
+}
+DIV.left-buttons A.title {
+FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #c75c14; LINE-HEIGHT: normal; FONT-STYLE: italic; LETTER-SPACING: -1px; FONT-VARIANT: normal
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 0px; MARGIN: 0px -1px 0px 0px; VERTICAL-ALIGN: middle; COLOR: orange; PADDING-TOP: 0px; LIST-STYLE-TYPE: square
+}
+DIV.rounded-topmenu {
+	BORDER-BOTTOM: skyblue; 3px solid; POSITION: relative; BACKGROUND-COLOR: skyblue;
+}
+DIV.topmenu-items {
+	WIDTH: 90%; POSITION: relative; TEXT-ALIGN: center
+}
+DIV.topmenu-items A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 11px Verdana,sans-serif; COLOR: #2b4484; PADDING-TOP: 2px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+DIV.topmenu-items A:hover {
+	BACKGROUND: #fcc88f; COLOR: #11f; TEXT-DECORATION: none
+}
+DIV.topmenu-items2 {
+	WIDTH: 100%; BORDER-BOTTOM: skyblue; 3px solid; POSITION: relative; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+DIV.topmenu-items2 A {
+	PADDING-RIGHT: 2px; DISPLAY: inline; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: bold italic 11px Verdana,sans-serif; COLOR: #0530bb; PADDING-TOP: 2px; LETTER-SPACING: -1px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+DIV.topmenu-items2 A:hover {
+	BACKGROUND: #eee; COLOR: #000; TEXT-DECORATION: none
+}
+DIV.orangebar1 {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 14px; VERTICAL-ALIGN: top; COLOR: #a63; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+DIV.orangebar2 {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: orange; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+DIV.content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; FONT: 11px Verdana, sans-serif; WIDTH: 100%; COLOR: #000; PADDING-TOP: 10px; POSITION: relative
+}
+DIV.content A:link {
+	COLOR: white
+}
+DIV.content A:visited {
+	COLOR: #bbc
+}
+DIV.content A:hover {
+	COLOR: #ff0
+}
+.middlered {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #c25400; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smallblack {
+	FONT-WEIGHT: 100; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smallblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.headline:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.headline:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.headline:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
